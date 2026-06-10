@@ -1,5 +1,8 @@
 # Configuration for Rubocop >= 0.77.0
 
+AllCops:
+  NewCops: disable
+
 Layout/ExtraSpacing:
   # When true, allows most uses of extra spacing if the intent is to align
   # things with the previous or next line, not counting empty lines or comment

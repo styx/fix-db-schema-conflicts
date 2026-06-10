@@ -1,5 +1,8 @@
 # Configuration for Rubocop >= 0.53.0
 
+AllCops:
+  NewCops: disable
+
 Layout/AlignHash:
   EnforcedColonStyle: 'key'
   EnforcedHashRocketStyle: 'key'
